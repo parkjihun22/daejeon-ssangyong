@@ -16,7 +16,6 @@ const partnerSites = [
   { name: "현대 테크노 레이원시티", url: "https://eliasart.kr/" },
   { name: "창원 자이위브", url: "https://brings.co.kr/" },
   { name: "대전 성남 우미린", url: "https://www.marvelpartners.co.kr" },
-  { name: "대전 쌍용 더플래티넘", url: "https://intercs.co.kr/" },
   { name: "용인 푸르지오 원클러스터2단지", url: "https://www.beyinegzersizi.com" },
   { name: "구미 로제비앙 메가시티", url: "https://www.leecols.kr" },
   { name: "원종 휴먼빌 클라츠", url: "https://www.abcya4.com/" },
