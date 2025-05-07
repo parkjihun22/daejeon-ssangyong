@@ -146,7 +146,7 @@
     }
 
     .mainImageText1 {
-        font-family: 'GongGothicMedium';
+        font-family: 'Pretendard-Regular';
         font-size: 3.5vw; /* 모바일에서 더 작은 글자 크기 */
         font-weight: bold;
         line-height: 1.4; /* 텍스트 간격 조정 */
@@ -156,7 +156,7 @@
     }
 
     .mainImageText5 {
-        font-family: 'GongGothicMedium';
+        font-family: 'Pretendard-Regular';
         font-size: 4.5vw; /* 모바일에서 더 작은 글자 크기 */
         font-weight: bold;
         line-height: 1.4; /* 텍스트 간격 조정 */
@@ -540,8 +540,6 @@
         .mainImage {
             width: 100vw;
             height: auto;
-            object-fit: cover; /* 이미지 비율 유지하면서 가득 채우기 */
-            filter: brightness(0.8) contrast(1.2); /* 이미지에 어두운 필터 적용, 대비 강조 */
         }
 
         .overlay {
@@ -550,7 +548,6 @@
             left: 0;
             width: 100%;
             height: 100%; /* 오버레이 크기 맞춤 */
-            background-color: rgba(0, 0, 0, 0.2); /* 투명도 높여서 이미지 강조 */
             pointer-events: none; /* 클릭 방지 */
         }
 
@@ -949,7 +946,7 @@
         margin: 4vw 0 0 5vw;
         
         .title {
-            color: #095052;
+            color: #1a2c4d;
       font-family: 'Pretendard-Regular';
             font-size: 4vw;
             font-weight: 400;
