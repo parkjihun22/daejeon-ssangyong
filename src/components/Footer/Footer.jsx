@@ -12,20 +12,19 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 // FAMILY SITE 목록 예시
 const partnerSites = [
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
-  { name: "힐스테이트 용인마크밸리", url: "https://www.alwatanyh.com" },
-  { name: "현대 테크노 레이원시티", url: "https://eliasart.kr/" },
-  { name: "창원 자이위브", url: "https://brings.co.kr/" },
+  { name: "현대 테크노 레이원시티", url: "https://eliasart.kr" },
+  { name: "창원 자이위브", url: "https://brings.co.kr" },
   { name: "대전 성남 우미린", url: "https://www.marvelpartners.co.kr" },
   { name: "용인 푸르지오 원클러스터2단지", url: "https://www.beyinegzersizi.com" },
   { name: "구미 로제비앙 메가시티", url: "https://www.leecols.kr" },
-  { name: "원종 휴먼빌 클라츠", url: "https://www.abcya4.com/" },
-  { name: "신검단 로얄파크시티2", url: "https://www.sketchs.co.kr/" },
-  { name: "군산 경장동 중해마루힐", url: "https://www.cssdesign.kr/" },
+  { name: "원종 휴먼빌 클라츠", url: "https://www.abcya4.com" },
+  { name: "신검단 로얄파크시티2", url: "https://www.sketchs.co.kr" },
+  { name: "군산 경장동 중해마루힐", url: "https://www.cssdesign.kr" },
   { name: "천안 쌍용 센트럴타워", url: "https://www.daincounseling.co.kr" },
-  { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com/" },
   { name: "브레인시티 앤네이처 미래도", url: "https://www.marvelpartners.co.kr" },
-  { name: "평택화양 신영지웰", url: "https://delidilly.co.kr/" },
+  { name: "평택화양 신영지웰", url: "https://delidilly.co.kr" },
   { name: "평택화양 동문디이스트", url: "https://www.verficktescheisse.com" },
+  { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com" },
 
 ];
 
@@ -63,8 +62,7 @@ const Footer = () => {
         <div className={styles.mobileWrapper}>
           {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            <h2>쌍용건설</h2>
-            <p>대전 쌍용 더플래티넘</p>
+            <h2>대전쌍용더플래티넘</h2>
           </div>
 
           {/* 안내문구 */}
@@ -87,9 +85,6 @@ const Footer = () => {
 
           {/* 시행사/시공사 */}
           <div className={styles.mobileCompany}>
-            <div>
-              <strong>시&nbsp;행&nbsp;사</strong> (주)쌍용건설
-            </div>
             <div>
               <strong>시&nbsp;공&nbsp;사</strong> (주)쌍용건설
             </div>
@@ -123,7 +118,7 @@ const Footer = () => {
           {/* COPYRIGHT */}
           <div className={styles.mobileCopyright}>
             <p>
-              COPYRIGHTⓒ 2024 대전 쌍용 더플래티넘 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 대전 쌍용 더플래티넘 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
@@ -147,10 +142,7 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;행&nbsp;사</strong> (주)쌍용건설
-                </div>
-                <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)쌍용건설
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)쌍용건설 
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -178,7 +170,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2024 대전 쌍용 더플래티넘 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 대전 쌍용 더플래티넘 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>
