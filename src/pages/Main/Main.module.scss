@@ -230,7 +230,7 @@
         margin-left: 7vw;
         padding-top: 9vw;
 
-        font-family: 'HakgyoansimBareonbatangB';
+  font-family: 'Pretendard-Regular';
         font-weight: 700;
         font-size: 3.5vw;
 
@@ -302,7 +302,7 @@
     align-items: flex-start;
 
     .textBox {
-        margin-top: 10vw;
+        margin-top: 13vw;
         margin-left: 8vw;
         font-weight: 700;
         font-size: 3.5vw;
@@ -399,7 +399,7 @@
     }
 
     .boxTitle {
-        font-family: 'HakgyoansimBareonbatangB';
+  font-family: 'Pretendard-Regular';
         font-weight: 700;
         margin-top: 2vw;
         font-size: 2vw;
@@ -423,7 +423,7 @@
 
     .boxText3 {
         text-decoration: none;
-        font-family: 'HakgyoansimBareonbatangB';
+        font-family: 'Pretendard-Regular';
         text-align: center;
         margin-top: 2.5vw;
         font-size: 1.2vw;
@@ -454,7 +454,7 @@
         align-items: center;
 
         img {
-            width: 45vw;
+            width: 40vw;
             height: 100vh;
         }
 
@@ -473,7 +473,7 @@
             transform: translate(-50%, -50%);
             color: #FFFFFF;
             font-size: 1.5vw;
-            font-family: "HakgyoansimBareonbatangB";
+            font-family: 'Pretendard-Regular';
         }
 
         .text2 {
@@ -482,7 +482,7 @@
             transform: translate(-50%, -50%);
             color: #d1af73;
             font-size: 2.5vw;
-            font-family: "GmarketSansMedium";
+            font-family: 'Pretendard-Regular';
         }
 
         .text3 {
@@ -491,19 +491,19 @@
             transform: translate(-50%, -50%);
             color: #FFFFFF;
             font-size: 1.2vw;
-            font-family: "GmarketSansMedium";
+            font-family: 'Pretendard-Regular';
         }
     }
 
     .textBox {
-        margin-top: 8vw;
+        margin-top: 10vw;
         margin-left: 4vw;
 
         width: 45vw;
 
         .text1 {
-            font-family: "HakgyoansimBareonbatangB";
-            font-size: 2.2vw;
+            font-family: 'Pretendard-Regular';
+            font-size: 1.8vw;
             color: #c98f25;
         }
 
@@ -514,7 +514,7 @@
             width: 100%;
             text-align: center;
             text-decoration: none;
-            font-family: "HakgyoansimBareonbatangB";
+            font-family: 'Pretendard-Regular';
             font-size: 1.5vw;
             color: #d1af73;
         }
@@ -699,7 +699,7 @@
         padding: 10vw 0 0 0;
         width: 100%;
 
-        font-family: 'HakgyoansimBareonbatangB';
+  font-family: 'Pretendard-Regular';
         font-weight: 700;
 
         background-color: #fffbf5;
@@ -779,7 +779,7 @@
         .textbox {
             padding: 5vw 0 0 5vw;
 
-            font-family: 'HakgyoansimBareonbatangB';
+      font-family: 'Pretendard-Regular';
             font-weight: 700;
             font-size: 3.5vw;
 
@@ -859,7 +859,7 @@
 
     .text1 {
         padding: 8vw 0 0 6vw;
-        font-family: "HakgyoansimBareonbatangB";
+        font-family: 'Pretendard-Regular';
         font-size: 5vw;
         color: #c98f25;
     }
@@ -868,7 +868,7 @@
         width: 100%;
         text-align: center;
         text-decoration: none;
-        font-family: "HakgyoansimBareonbatangB";
+        font-family: 'Pretendard-Regular';
         font-size: 1.5vw;
         color: #d1af73;
 
@@ -950,13 +950,13 @@
         
         .title {
             color: #095052;
-            font-family: 'HakgyoansimBareonbatangB';
+      font-family: 'Pretendard-Regular';
             font-size: 4vw;
             font-weight: 400;
             line-height: 6vw;
 
             span:first-of-type {
-                font-family: 'HakgyoansimBareonbatangB';
+          font-family: 'Pretendard-Regular';
                 color: #b88c52;
                 font-weight: 800;
                 font-size: 5vw;
@@ -979,7 +979,7 @@
             }
 
             .subText {
-                font-family: 'HakgyoansimBareonbatangB';
+          font-family: 'Pretendard-Regular';
                 color: #0f0f1d;
                 margin: 0 0 0 0;
                 font-size: 3vw;
@@ -1016,7 +1016,7 @@
 
         .title {
             color: #1a2c4d;
-            font-family: 'HakgyoansimBareonbatangB';
+      font-family: 'Pretendard-Regular';
             font-size: 2vw;
             font-weight: 600;
             line-height: 3.5vw;
@@ -1084,7 +1084,7 @@
 
         .title {
             color: #1a2c4d;
-            font-family: 'HakgyoansimBareonbatangB';
+      font-family: 'Pretendard-Regular';
             font-size: 2vw;
             font-weight: 600;
             line-height: 2.5vw;
@@ -1114,7 +1114,7 @@
             }
 
             .subText {
-                font-family: 'HakgyoansimBareonbatangB';
+          font-family: 'Pretendard-Regular';
                 font-size: 1.3vw;
                 line-height: 2vw;
             }
@@ -1359,10 +1359,10 @@
   .pcVisitContainer {
     width: 50%;
     max-width: 900px;
-    margin: 100px auto; /* 가운데 정렬 */
+    margin: 8vw auto 1vw auto; /* 가운데 정렬 */
     background-color: #fff;
     border-radius: 8px;
-    padding: 50px;
+    padding: 60px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   
     /* 텍스트 왼쪽 정렬 */
