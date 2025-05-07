@@ -455,9 +455,9 @@ const Main = () => {
               <div className={styles.mainImageTextSub1}>
                 계약축하금 1500만원 증정<br />
                 <span className={styles.greyText}>파격조건</span><br />
-                부담을 덜어주는<br />
+                중도금 무이자<br />
                 <span className={styles.greyText}>착한 옵션</span><br />
-                500만원으로 입주까지 끝<br />
+                500만원으로 입주까지 끝 <br />
                 <span className={styles.greyText}>착한조건</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
