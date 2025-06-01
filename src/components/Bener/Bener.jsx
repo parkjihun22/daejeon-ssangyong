@@ -40,7 +40,7 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '쌍용 더플래티넘' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === '하늘채 루시에르' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
@@ -50,7 +50,7 @@ const contents = (text, isLoaded) => {
                     대전 핵심주거타운의 중심
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 대전 쌍용 더플래티넘과 함께합니다.
+                    NO.1 브랜드 대전 하늘채 루시에르과 함께합니다.
                 </div>
             </>
         );
@@ -58,7 +58,7 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    쌍용건설이 선택한 새도시!
+                    코오롱글로벌이 선택한 새도시!
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                    대전 제 1·2 산업단지 및 벤처협동화단지 직주근접  프리미엄
@@ -67,7 +67,7 @@ const contents = (text, isLoaded) => {
                     가장 높은 브랜드의 첫 시작
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    대전 쌍용 더플래티넘
+                    대전 하늘채 루시에르
                 </div>
             </>
         );
@@ -78,7 +78,7 @@ const contents = (text, isLoaded) => {
                     수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 대전 쌍용 더플래티넘에서 펼쳐집니다
+                    기대하던 모든 프리미엄이 대전 하늘채 루시에르에서 펼쳐집니다
                 </div>
             </>
         );
@@ -92,7 +92,7 @@ const contents = (text, isLoaded) => {
                     편리한 생활을 위한 최적의 공간설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된 대전 쌍용 더플래티넘, 대전에 찾아옵니다
+                    소수에게만 허락된 대전 하늘채 루시에르, 대전에 찾아옵니다
                 </div>
             </>
         );

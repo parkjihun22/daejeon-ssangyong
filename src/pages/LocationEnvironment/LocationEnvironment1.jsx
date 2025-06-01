@@ -29,7 +29,7 @@ const LocationSection = [
   },
   {
     img: section2Image2,
-    titleText: "쌍용건설만의 특화설계 및 쾌적한 단지설계",
+    titleText: "코오롱글로벌만의 특화설계 및 쾌적한 단지설계",
     contentText:
       "세련된 커튼월룩 외관<br />펜트리 및 광폭드레스룸 등 특화설계 적용",
   },
@@ -57,7 +57,7 @@ const LocationSection = [
     titleText:
       "대전의 중심<br /> 단지 앞 도서관, <br /> 계족산 공원프리미엄까지  ",
     contentText:
-      " 대전의 중심 핵심주거타운 <br /> 쌍용건설 프리미엄은 덤으로",
+      " 대전의 중심 핵심주거타운 <br /> 코오롱글로벌 프리미엄은 덤으로",
   },
 ];
 
@@ -103,21 +103,21 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 쌍용 더플래티넘 - 입지안내</title>
+        <title>대전 하늘채 루시에르 - 입지안내</title>
         <meta
           name="description"
           content="이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요"
         />
         <meta
           name="keywords"
-          content="대전 쌍용 더플래티넘, 쌍용 더플래티넘, 대전 쌍용 더플래티넘모델하우스"
+          content="대전 하늘채 루시에르, 하늘채 루시에르, 대전 하늘채 루시에르모델하우스"
         />
         <link rel="canonical" href="https://intercs.co.kr/LocationEnvironment/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="대전 쌍용 더플래티넘 - 입지안내"
+          content="대전 하늘채 루시에르 - 입지안내"
         />
         <meta
           property="og:description"
@@ -131,13 +131,13 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://intercs.co.kr/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="대전 쌍용 더플래티넘" />
+        <meta property="og:site_name" content="대전 하늘채 루시에르" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 쌍용 더플래티넘 - 입지안내"
+          content="대전 하늘채 루시에르 - 입지안내"
         />
         <meta
           name="twitter:description"
@@ -158,7 +158,7 @@ const LocationEnvironment1 = () => {
 				 {
 			 "@context": "https://schema.org",
 			 "@type": "WebPage",
-			 "name": "대전 쌍용 더플래티넘 - 입지안내",
+			 "name": "대전 하늘채 루시에르 - 입지안내",
 			 "description": "이 단지는 최적의 입지 조건과 우수한 교통망, 풍부한 생활 인프라, 쾌적한 녹지 환경이 완벽하게 어우러져, 편리한 생활과 미래 가치 상승을 기대할 수 있습니다. 입지안내를 통해 주변 시설, 접근성 및 발전 가능성을 상세히 확인해보세요",
 			 "url": "https://intercs.co.kr/LocationEnvironment/intro"
 				 }
@@ -174,17 +174,17 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 쌍용 더플래티넘 - 입지안내
+        대전 하늘채 루시에르 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        대전 쌍용 더플래티넘의 입지 안내 페이지는 이 단지의 위치와 주변 인프라에
+        대전 하늘채 루시에르의 입지 안내 페이지는 이 단지의 위치와 주변 인프라에
         대한 상세 정보를 제공합니다. 교통, 교육, 상업시설 등 다양한 생활 편의
         시설을 고려하여 이 아파트가 제공하는 생활 환경을 종합적으로 살펴볼 수
         있습니다. 입지 조건을 바탕으로 더 나은 선택을 할 수 있도록 돕습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>갈수록 완벽해질 대전 쌍용 더플래티넘</div>
+        <div>갈수록 완벽해질 대전 하늘채 루시에르</div>
         <div>살수록 높아질 더플래티넘</div>
         <div>도시를 압도할 자부심 </div>
       </div>
@@ -192,7 +192,7 @@ const LocationEnvironment1 = () => {
       <img
         src={page1}
         className={styles.image2}
-        alt="대전 쌍용 더플래티넘 입지안내 이미지"
+        alt="대전 하늘채 루시에르 입지안내 이미지"
       />
 
       <div className={styles.section2}>

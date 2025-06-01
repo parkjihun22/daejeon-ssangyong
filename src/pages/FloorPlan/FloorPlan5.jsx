@@ -61,14 +61,14 @@ const FloorPlan5 = () => {
 
 			<div className={styles.textBox}>
 				<div>대전의 눈부신 가치 위에</div>
-				<div>대전 쌍용 더플래티넘의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전 하늘채 루시에르의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="대전 쌍용 더플래티넘 평면사진이미지"
+				alt="대전 하늘채 루시에르 평면사진이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

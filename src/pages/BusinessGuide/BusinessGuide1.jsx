@@ -12,7 +12,7 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 import { Helmet } from "react-helmet-async";
 
 const projectData = [
-  { label: "사업명", value: "대전 쌍용 더플래티넘" },
+  { label: "사업명", value: "대전 하늘채 루시에르" },
   { label: "사업위치", value: "대전광역시 대덕구 읍내동 51-9번지 일원" },
   { label: "대지면적", value: "30,437.00㎡" },
   { label: "건축면적", value: "6,194.8978㎡" },
@@ -65,22 +65,22 @@ const BusinessGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 쌍용 더플래티넘 - 사업안내</title>
+        <title>대전 하늘채 루시에르 - 사업안내</title>
         <meta
           name="description"
-          content="대전 쌍용 더플래티넘은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
+          content="대전 하늘채 루시에르은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
         />
         <meta
           name="keywords"
-          content="대전 쌍용 더플래티넘, 쌍용 더플래티넘, 대전 쌍용 더플래티넘모델하우스"
+          content="대전 하늘채 루시에르, 하늘채 루시에르, 대전 하늘채 루시에르모델하우스"
         />
         <link rel="canonical" href="https://intercs.co.kr/Brand/intro" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta property="og:title" content="대전 쌍용 더플래티넘 - 사업안내" />
+        <meta property="og:title" content="대전 하늘채 루시에르 - 사업안내" />
         <meta
           property="og:description"
-          content="대전 쌍용 더플래티넘은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
+          content="대전 하늘채 루시에르은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
         />
         <meta
           property="og:image"
@@ -90,17 +90,17 @@ const BusinessGuide1 = () => {
           property="og:url"
           content="https://intercs.co.kr/Brand/intro"
         />
-        <meta property="og:site_name" content="대전 쌍용 더플래티넘" />
+        <meta property="og:site_name" content="대전 하늘채 루시에르" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="대전 쌍용 더플래티넘 - 사업안내"
+          content="대전 하늘채 루시에르 - 사업안내"
         />
         <meta
           name="twitter:description"
-          content="대전 쌍용 더플래티넘은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
+          content="대전 하늘채 루시에르은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다."
         />
         <meta
           name="twitter:image"
@@ -117,8 +117,8 @@ const BusinessGuide1 = () => {
 		{
 			"@context": "https://schema.org",
 			"@type": "WebPage",
-			"name": "대전 쌍용 더플래티넘 - 사업안내",
-			"description": "대전 쌍용 더플래티넘은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.",
+			"name": "대전 하늘채 루시에르 - 사업안내",
+			"description": "대전 하늘채 루시에르은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.",
 			"url": "https://intercs.co.kr/Brand/intro"
 		}
 		`}
@@ -133,10 +133,10 @@ const BusinessGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 쌍용 더플래티넘 - 사업안내
+        대전 하늘채 루시에르 - 사업안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        대전 쌍용 더플래티넘은 혁신적인 주거 환경을 제공하는 새로운 아파트
+        대전 하늘채 루시에르은 혁신적인 주거 환경을 제공하는 새로운 아파트
         단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을
         상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을
         포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록
@@ -147,13 +147,13 @@ const BusinessGuide1 = () => {
         <div>
           대전의 중심상권을  누리는 특별한 라이프 컬렉션
         </div>
-        <div>대전 쌍용 더플래티넘의 새로운 자부심으로 찾아옵니다.</div>
+        <div>대전 하늘채 루시에르의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       <img
         className={styles.img3}
         src={page1}
-        alt="대전 쌍용 더플래티넘 메인 조감도 -image1"
+        alt="대전 하늘채 루시에르 메인 조감도 -image1"
       />
 
       <div className={styles.tableContainer}>
