@@ -57,7 +57,7 @@
 
 .mainImageTextSub {
     font-size: 17px; /* 텍스트2와 크기 동일 */
-    color: #4d4a4a;
+    color: #FFFFFF;
     font-weight: normal;
     margin-bottom: 10px;
     animation: textSlideIn 1s ease-in-out forwards; /* 텍스트 슬라이드 애니메이션 */
@@ -65,7 +65,7 @@
 
 .greyText {
     font-family: 'GongGothicMedium';
-    color: #1a2c4d; /* 회색 텍스트 */
+    color: #e5eb31; /* 회색 텍스트 */
 }
 
 .blueText {
@@ -86,7 +86,7 @@
     font-weight: 400;
     font-size: 48px; /* 텍스트2 가장 큰 크기 */
     margin: 1vw 0;
-    color: #1a2c4d; /* 파랑 색상 */
+    color: #ffffff; /* 파랑 색상 */
 }
 
 /* 텍스트 애니메이션 */
@@ -151,7 +151,7 @@
         font-weight: bold;
         line-height: 1.4; /* 텍스트 간격 조정 */
         margin: 5px 0;
-        color: #1a2c4d; /* 파랑 색상 */
+        color: #ffffff; /* 파랑 색상 */
         animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
     }
 
@@ -988,11 +988,12 @@
 
     img {
         margin: 2vw 0 0 5vw;
-        width: 90vw;
+        width: 80vw;
 
     }
 }
 .section8 {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1015,12 +1016,12 @@
             color: #1a2c4d;
       font-family: 'Pretendard-Regular';
             font-size: 2vw;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 3.5vw;
 
             span:first-of-type {
                 color: #b88c52;
-                font-weight: 800;
+                font-weight: 500;
                 font-size: 2.5vw;
             }
         }
@@ -1043,7 +1044,7 @@
 
             .subText {
                 color: #1a2c4d;
-                font-family: 'GongGothicMedium';
+                font-family: 'Pretendard-Regular';
                 font-size: 1.3vw;
                 line-height: 2vw;
             }
@@ -1052,8 +1053,8 @@
     }
 
     img {
-        margin: 8vw 5VW 2vw 0;
-        width: 40vw;
+        margin: 10vw 5VW 2vw 0;
+        width: 32vw;
 
     }
 }
