@@ -45,7 +45,7 @@
 .mainImageTextBox {
     font-weight: 900;
     position: absolute;
-    top: 37%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFFFFF;
@@ -84,8 +84,8 @@
 .mainImageText {
     font-family: 'GongGothicMedium';
     font-weight: 400;
-    font-size: 48px; /* 텍스트2 가장 큰 크기 */
-    margin: 1vw 0;
+    font-size: 2vw; /* 텍스트2 가장 큰 크기 */
+    margin-top: 1.5vw;
     color: #ffffff; /* 파랑 색상 */
 }
 
@@ -140,7 +140,7 @@
     .mainImageTextSub1 {
         color: #ffffff; /* 회색 */
         font-size: 3vw; /* 모바일에서 글자 크기 줄임 */
-        line-height: 1.4;
+        line-height: 1.7;
         margin-bottom: 8px; /* 모바일에서 여백 조금 줄임 */
         animation: slideUp 1s ease-out forwards; /* 텍스트 슬라이드 애니메이션 */
     }
@@ -359,9 +359,9 @@
     }
 
     img {
-        margin-top: 12vw;
+        margin-top: 18vw;
         margin-right: 10vw;
-        width: 30vw;
+        width: 40vw;
     }
 }
 
@@ -987,7 +987,7 @@
     }
 
     img {
-        margin: 2vw 0 0 5vw;
+        margin: 2vw 0 0 10vw;
         width: 80vw;
 
     }

@@ -13,13 +13,13 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
   { label: "사업명", value: "대전 하늘채 루시에르" },
-  { label: "사업위치", value: "대전광역시 대덕구 읍내동 51-9번지 일원" },
-  { label: "대지면적", value: "30,437.00㎡" },
-  { label: "건축면적", value: "6,194.8978㎡" },
-  { label: "연면적", value: "111,276.5856㎡" },
-  { label: "용적률", value: "220.94%" },
-  { label: "건축규모", value: "지하 3층, 지상 최고 25층, 6개동" },
-  { label: "세대수", value: "745세대 (전용 59A 47세대, 전용 59B 220세대, 전용 74㎡ 13세대,전용 84㎡ 54세대)" },
+  { label: "사업위치", value: "대전광역시 중구 선화동 95-3외 다수필지" },
+  { label: "대지면적", value: "19,637.30㎡ " },
+  { label: "건축면적", value: "11,851.2990㎡" },
+  { label: "연면적", value: "219,201.8244㎡" },
+  { label: "용적률", value: " 742.55%" },
+  { label: "건축규모", value: "지하 3층, 지상 최고 45층, 6개동" },
+  { label: "세대수", value: "745세대 (84 / 105 / 119 ㎡)" },
 ];
 
 const BusinessGuide1 = () => {

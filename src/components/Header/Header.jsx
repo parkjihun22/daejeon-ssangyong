@@ -18,58 +18,58 @@ const menuArray = [
     title: "브랜드소개",
     subMenu: [
       { subTitle: "브랜드 소개", subUrl: "/Brand/intro" },
-      { subTitle: "홍보 영상", subUrl: "/Brand/video" },
+      // { subTitle: "홍보 영상", subUrl: "/Brand/video" },
     ],
   },
   {
     title: "사업개요",
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
-      { subTitle: "계약서류안내", subUrl: "/BusinessGuide/documents" },
+      // { subTitle: "계약서류안내", subUrl: "/BusinessGuide/documents" },
     ],
   },
-  {
-    title: "분양안내",
-    subMenu: [
-      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
-      { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
-      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
-    ],
-  },
+  // {
+  //   title: "분양안내",
+  //   subMenu: [
+  //     { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
+  //     { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
+  //     { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+  //   ],
+  // },
   {
     title: "입지환경",
     subMenu: [
-      { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
+      // { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
       { subTitle: "입지안내", subUrl: "/LocationEnvironment/intro" },
       { subTitle: "프리미엄", subUrl: "/LocationEnvironment/primium" },
     ],
   },
-  {
-    title: "단지안내",
-    subMenu: [
-      { subTitle: "단지 배치도", subUrl: "/ComplexGuide/intro" },
-      { subTitle: "호수 배치도", subUrl: "/ComplexGuide/detailintro" },
-      { subTitle: "특화 시스템", subUrl: "/ComplexGuide/community" },
-    ],
-  },
-  {
-    title: "세대안내",
-    subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "74㎡", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84㎡", subUrl: "/FloorPlan/59B" },
+  // {
+  //   title: "단지안내",
+  //   subMenu: [
+  //     { subTitle: "단지 배치도", subUrl: "/ComplexGuide/intro" },
+  //     { subTitle: "호수 배치도", subUrl: "/ComplexGuide/detailintro" },
+  //     { subTitle: "특화 시스템", subUrl: "/ComplexGuide/community" },
+  //   ],
+  // },
+  // {
+  //   title: "세대안내",
+  //   subMenu: [
+  //     { subTitle: "59A", subUrl: "/FloorPlan/59A" },
+  //     { subTitle: "59B", subUrl: "/FloorPlan/59B" },
+  //     { subTitle: "74㎡", subUrl: "/FloorPlan/59A" },
+  //     { subTitle: "84㎡", subUrl: "/FloorPlan/59B" },
 
-    ],
-  },
-  {
-    title: "인테리어",
-    subMenu: [
-      { subTitle: "59㎡", subUrl: "/Interior/59A" },
-      { subTitle: "84㎡", subUrl: "/Interior/84A" },
+  //   ],
+  // },
+  // {
+  //   title: "인테리어",
+  //   subMenu: [
+  //     { subTitle: "59㎡", subUrl: "/Interior/59A" },
+  //     { subTitle: "84㎡", subUrl: "/Interior/84A" },
 
-    ],
-  },
+  //   ],
+  // },
 ];
 
 const Header = () => {

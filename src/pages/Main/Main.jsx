@@ -47,18 +47,18 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `앞선 직주근접 라이프`,
-    text2: `대전 제 1,2 일반산업단지<br />
-            대전 벤처협동화단지, 평촌 중소기업단지 등 <br /> 직주근접 프리미엄`,
+    text1: `대전 초대형 브랜드 타운 완성`,
+    text2: `1차 , 2차 모두 100% 분양완료 <br />
+            탁 트린 49층 시티뷰 조망<br /> 약 4,700세대의 기대작`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `안심학세권, 핵심인프라 라이프`,
-    text2: `이마트,하나로마트<br />
-            대전병원, 회덕초등학교 등 인프라중심`,
+    text1: `믿고 다닐 수 있는 안심학세권`,
+    text2: `선화초,충남여중 · 고<br />
+            대성중 등 단지내 초인접`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -66,17 +66,17 @@ const section3Contents = [
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
     text1: `대전을 잇는 사통팔달 광역교통망`,
-    text2: `2호선 읍내역과 단지앞 버스노선<br />
-           대전로, 신탄진로, 호남고속도로 인접<br /> 3km이내 BRT정류장 등`,
+    text2: `1호선 중앙로역<br />
+           대충청권광역철도 및 2호선<br /> 광역교통망 프리미엄`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `합리적인 입주축하금 지원`,
-    text2: `입주축하금 1500만원 상당의 혜택으로<br />
-            내집마련의 기회`,
+    text1: `슬세권 라이프`,
+    text2: `단지 내 상가와 연계되는 슬세권라이프<br />
+            퍼펙트 생활 인프라`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -195,7 +195,7 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
-                계약축하금 1,500만원 증정 <span className={styles.greyText}>파격적인 조건</span> | 부담을 덜어주는 <span className={styles.greyText}>착한 옵션</span> | 입주까지500만원으로 끝! <span className={styles.greyText}>착한조건</span>
+                대전 하늘채 1,2차 <span className={styles.greyText}>100% 분양완료</span> | 부담을 덜어주는 <span className={styles.greyText}>착한 옵션</span> | 사전청약시 <span className={styles.greyText}>특별한 혜택</span>
               </div>
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageText}>대전이 기다린 가장 착한 아파트</div>
@@ -453,12 +453,12 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                계약축하금 1500만원 증정<br />
-                <span className={styles.greyText}>파격조건</span><br />
-                중도금 무이자<br />
-                <span className={styles.greyText}>착한 옵션</span><br />
-                500만원으로 입주까지 끝 <br />
-                <span className={styles.greyText}>착한조건</span>
+                대전 하늘채 1,2차<br />
+                <span className={styles.greyText}>100% 분양완료</span><br />
+                부담을 덜어주는<br />
+                <span className={styles.greyText}>착한옵션</span><br />
+                사전관심고객 등록시 <br />
+                <span className={styles.greyText}>특별한 혜택증정</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>대전이 기다린<br /> 가장 착한 아파트</div>
